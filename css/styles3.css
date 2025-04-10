@@ -1411,12 +1411,12 @@ footer span {
 		align-items: center;
 		
 		width: 100vw;
-		height: 30px;
+		height: 50px;
 		
 		margin: 0;
 		padding: 0;
 		
-		background: linear-gradient(45deg, #4CBB17 0%, #32CD32 40%, #478778 100%);
+		background: linear-gradient(45deg, #4CBB17 5%, #32CD32 35%, #478778 80%);
 		
 		border: none;
 		
@@ -1450,7 +1450,7 @@ footer span {
 		border-bottom: 2px solid black;
 		
 		position: absolute;
-		top: 6px;
+		top: 16px;
 		left: auto;
 		right: 20px;
 		z-index: 9;
@@ -1502,12 +1502,12 @@ footer span {
 		margin: 0;
 		padding: 5vh 0 0;
 		
-		background: linear-gradient(83deg, #4CBB17 0%, #2ebf2e 30%, #478778 100%);
+		background: #478778;
 		
 		border: none;
 		
 		position: absolute;
-		top: 29px;
+		top: 49px;
 		right: 0;
 		z-index: 9;
 		

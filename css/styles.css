@@ -47,7 +47,7 @@ button {
 
 /* BODY */
 body {
-	background: linear-gradient(48deg, #4158D0 0%, #C850C0 30%, #f68a30 70%, #FFCC70 95%);
+	background: linear-gradient(80deg, #4158D0 5%, #C850C0 32%, #f68a30 60%, #FFCC70 95%);
 }
 /* /body */
 
@@ -65,7 +65,7 @@ header {
 	margin: 0;
 	padding: 0;
 	
-	background: ;
+	background: none;
 	
 	border: none;
 }
@@ -89,7 +89,7 @@ h1 {
 	padding: 0;
 	
 	font: normal 700 16rem/1 Rubik, sans-serif;
-	letter-spacing: 0.04em;
+	letter-spacing: 0.03em;
 	text-align: left;
 	color: #fff;
 }
@@ -99,7 +99,7 @@ h1 {
 	padding: 0;
 	
 	font: normal 700 7.2rem/1.5 Cormorant, sans-serif;
-	letter-spacing: 0.03em;
+	letter-spacing: 0.06em;
 	text-align: right;
 	color: #000;
 }
@@ -124,14 +124,14 @@ main {
 	width: 800px;
 	height: auto;
 	
-	margin: 20px auto 80px;
+	margin: 30px auto 100px;
 	padding: 0;
 	
 	background: none;
 	
 	border: none;
 	
-	font: normal normal 3.6rem/1.6 Poppins, sans-serif;
+	font: normal normal 3rem/1.6 Poppins, sans-serif;
 	text-align: justify;
 	letter-spacing: -0.01em;
 	text-indent: 57px;
@@ -191,4 +191,95 @@ main {
 /* /main */
 
 /* FOOTER */
+footer {
+	width: 100%;
+	height: auto;
+	
+	margin: 20px 0 0;
+	padding: 0 0 40px;
+	
+	background: #f68a30;
+	
+	border: none;
+}
+
+#legal-agreement {
+	display: block;
+	
+	width: 1200px;
+	height: auto;
+	
+	margin: 0 auto 40px;
+	padding: 30px 0 0;
+	
+	background: none;
+	
+	border: none;
+	
+	font: normal normal 1.8rem/1.5 Poppins, sans-serif;
+	text-align: right;
+	letter-spacing: -0.01em;
+	color: #111;
+}
+
+#footer-grid {
+	display: grid;
+	grid-template: 100% / 3fr 4fr;
+	column-gap: 40px;
+
+	width: 100%;
+	height: auto;
+	
+	margin: 0 auto;
+	padding: 0 6% 0;
+	
+	background: none;
+	
+	border: none;
+	
+	font: normal normal 1.6rem/1.5 Poppins, sans-serif;
+	text-align: left;
+	letter-spacing: -0.01em;
+	color: #111;
+}
+
+#contacts {
+	display: inline-flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+	align-content: flex-start;
+	
+	width: 100%;
+	height: auto;
+	
+	margin: 0;
+	padding: 0;
+	
+	background: none;
+	
+	border: none;
+}
+
+#contacts p {
+	display: inline;
+	
+	margin: 0 18px 0 0;
+}
+
+#contacts img {
+	display: block;
+	
+	width: 18px;
+	height: auto;
+	
+	margin: 2px 0 0;
+	padding: 0;
+}
+
+#contacts a {
+	display: block;
+	
+	width: 18px;
+	height: 18px;
+}
 /* /footer */

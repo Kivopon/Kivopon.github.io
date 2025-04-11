@@ -60,7 +60,7 @@ header {
 	
 	width: 100%;
 	height: 100vh;
-	min-height: 720px;
+	min-height: 600px;
 	
 	margin: 0;
 	padding: 0;
@@ -283,3 +283,180 @@ footer {
 	height: 18px;
 }
 /* /footer */
+
+/***************************************************************************************************
+****************************************************************************************************
+**********@MEDIA************************************************************************************
+****************************************************************************************************
+***************************************************************************************************/
+	
+@media (min-width: 2560px) {
+	
+	/* HEADER */
+	h1 {
+		font-size: 18.4rem
+	}
+	
+	#subtitle {
+		font-size: 9.6rem;
+	}
+	/* /header */
+	
+	/* MAIN */
+	#intro-text {
+		width: 1000px;
+		margin: 30px auto 100px;
+		font-size: 4rem;
+	}
+	
+	#project-gallery {
+		width: 1500px;
+	}
+	
+	.gallery-blocks {
+		width: 680px;
+		margin: 0 0 80px;
+	}
+	
+	#project-gallery img {
+		width: 680px;
+		height: auto;
+	}
+	
+	.project-description {
+		width: 360px;
+		margin: 25px auto 0;
+		font-size: 2.5rem;
+	}
+	/* /main */
+	
+	/* FOOTER */
+	footer {
+		margin: 20px 0 0;
+		padding: 0 0 80px;
+	}
+	
+	#legal-agreement {
+		width: 1200px;
+		margin: 0 auto 40px;
+		padding: 30px 0 0;
+		font-size: 2.5rem;
+	}
+	
+	#footer-grid {
+		font-size: 2rem;
+	}
+	/* /footer */
+	
+}
+
+@media (max-width: 1280px) {
+	
+	/* HEADER */
+	h1 {
+		margin: 0;
+		font-size: 9.6rem;
+	}
+	
+	#subtitle {
+		margin: 0;
+		font-size: 4.8rem;
+		letter-spacing: 0.03em;
+	}
+	/* /header */
+	
+	/* MAIN */
+	#intro-text {
+		width: 540px;
+		margin: 30px auto 80px;
+		font-size: 2.4rem;
+	}
+	
+	#project-gallery {
+		flex-flow: column nowrap;
+		width: 500px;
+	}
+	
+	.gallery-blocks {
+		width: 500px;
+		margin: 0 0 80px;
+	}
+	
+	#project-gallery img {
+		width: 500px;
+		height: auto;
+	}
+	/* /main */
+	
+	/* FOOTER */
+	#legal-agreement {
+		width: 540px;
+	}
+	
+	#footer-grid {
+		column-gap: 32px;
+		font-size: 1.5rem;
+	}
+	/* /footer */
+}
+
+@media (max-width: 600px) and (min-width: 320px) {
+	
+	/* HEADER */
+	header {
+		min-height: 320px;
+	}
+	
+	h1 {
+		font-size: 6rem;
+	}
+	
+	#subtitle {
+		font-size: 3.6rem;
+	}
+	/* /header */
+	
+	/* MAIN	*/
+	#intro-text {
+		width: 280px;
+		margin: 20px auto 60px;
+		font-size: 2rem;
+	}
+	
+	#project-gallery {
+		width: 320px;
+	}
+	
+	.gallery-blocks {
+		width: 300px;
+		margin: 0 0 60px;
+	}
+	
+	#project-gallery img {
+		width: 300px;
+		height: auto;
+    }
+	/* /main */
+	
+	/* FOOTER */
+	#legal-agreement {
+        width: 280px;
+    }
+	
+	#footer-grid {
+        column-gap: 28px;
+		font: normal normal 1.4rem / 1.5 Poppins, sans-serif;
+    }
+	
+	#contacts {
+		flex-flow: row wrap;
+		justify-content: flex-start;
+	}
+	
+	#contacts p {
+		display: inline;
+		margin: 0 14px 14px 0;
+	}
+	/* /footer */
+	
+}

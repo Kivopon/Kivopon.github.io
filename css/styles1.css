@@ -1473,12 +1473,14 @@ footer a {
 	width: auto;
 	height: auto;
 	
+	margin: 0 50% 0 0;
+	padding: 0;
+	
 	border: none;
 	
 	background: none;
 	
-	margin: 0 50% 0 0;
-	padding: 0;
+	font: normal normal 16px/1.5 Rubik, sans-serif;
 }
 
 .copyright a {
@@ -1487,24 +1489,24 @@ footer a {
 	width: 20px;
 	height: 20px;
 	
+	margin: 0 0 0 30px;
+	padding: 0;
+	
 	border: none;
 	
 	background: none;
-	
-	margin: 0 0 0 30px;
-	padding: 0;
 }
 
 .copyright img {
 	width: 20px;
 	height: auto;
 	
+	margin: 0;
+	padding: 0;
+	
 	border: none;
 	
 	background: none;
-	
-	margin: 0;
-	padding: 0;
 }
 /* /footer */
 

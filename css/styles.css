@@ -607,7 +607,7 @@ footer a {
 	/* MAIN	*/
 	main {
 		width: 75vw;
-		min-width: 290px;
+        min-width: 300px;
 	}
 	
 	h2 {
@@ -615,13 +615,13 @@ footer a {
 	}
 	
 	#websites-project-gallery {
-		width: 270px;
-		align-items: center;
+		width: 280px;
+        align-items: center;
 	}
 	
 	.gallery-blocks {
-		width: 270px;
-		margin: 0 0 60px;
+		width: 280px;
+        margin: 0 0 60px;
 	}
 	
 	#websites-project-gallery img {
@@ -654,5 +654,21 @@ footer a {
 		margin: 0 14px 14px 0;
 	}
 	/* /footer */
+	
+}
+
+@media (max-height: 600px) {
+	
+	/* HEADER */
+	header {
+		justify-content: center;
+		min-height: initial;
+        padding: 0;
+	}
+	
+	#intro-text {
+        margin: 12vh auto 0px;
+	}
+	/* /header */
 	
 }

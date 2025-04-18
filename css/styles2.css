@@ -128,14 +128,14 @@ h1 {
 	border: none;
 	border-radius: 15%/50%;
 	
-	background-color: #f2c94c;
+	background-color: #fdda0d;
 	
 	font: normal 400 1.6rem Poppins, sans-serif;
 	color: #333;
 }
 
 #button-1:hover {
-	background-color: #c6a53f;
+	background-color: #dfc425;
 }
 
 #button-2 {
@@ -252,7 +252,7 @@ h2 {
 }
 
 .gallery-cell:hover {
-	background: #f14747;
+	background: #e55151;
 	
 	color: #000;
 	
@@ -385,14 +385,14 @@ h3 {
 	border: none;
 	border-radius: 15%/50%;
 	
-	background-color: #f2c94c;
+	background-color: #fdda0d;
 	
 	font: normal 400 1.6rem Poppins, sans-serif;
 	color: #333;
 }
 
 #button-3:hover {
-	background-color: #c6a53f;
+	background-color: #dfc425;
 }
 
 #button-4 {
@@ -512,20 +512,20 @@ h5 {
 
 #contacts {
 	display: block;
-	width: 375px;
-	height: auto;
 	
-	margin: 0 auto;
-	padding: 0;
+    width: 375px;
+    height: auto;
 	
-	background: none;
+    margin: 0 auto;
+    padding: 0;
 	
-	border: none;
+    background: none;
 	
-	font: normal 400 1.6rem/1 Inter, sans-serif;
-	color: #fff;
+    border: none;
 	
-	text-align: left;
+    font: normal 400 1.6rem/1.5 Inter, sans-serif;
+    color: #fff;
+    text-align: left;
 }
 
 #contacts a {
@@ -561,14 +561,14 @@ h5 {
 	border: none;
 	border-radius: 15%/50%;
 	
-	background-color: #f2c94c;
+	background-color: #fdda0d;
 	
 	font: normal 400 1.8rem Poppins, sans-serif;
 	color: #333;
 }
 
 #button-5:hover {
-	background-color: #c6a53f;
+	background-color: #dfc425;
 }
 
 #copyright {
@@ -783,7 +783,7 @@ h5 {
 	
 	#company-name {
 		margin: 0 auto 30px;
-		padding: 20px 0 0;
+		padding: 30px 0 0;
 	}
 	
 	#company-name p {

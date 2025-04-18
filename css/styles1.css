@@ -1122,6 +1122,7 @@ h5 {
 
 .profile-pic {
 	width: 110px;
+	height: auto;
 	
 	margin: 0 30px 0 35px;
 	
@@ -2482,7 +2483,7 @@ footer a {
 		align-items: start;
 		
 		width: 82%;
-		height: 285px;
+		height: auto;
 	}
 	
 	.profile-pic {
@@ -2494,12 +2495,12 @@ footer a {
 	.rev-card p {
 		display: inline;
 		
-		width: auto;
-		height: auto;
+        width: auto;
+        height: auto;
 		
-		margin: 15px 15px 0 10px;
+        margin: 15px 15px 15px 15px;
 		
-		font-size: 18px;
+        font-size: 18px;
 	}
 	
 	.name-line {

@@ -41,7 +41,7 @@ a:hover {
 }
 
 a:visited {
-	color: #AA336A;
+	color: inherit;
 }
 
 button {
@@ -607,7 +607,7 @@ footer a {
 	/* MAIN	*/
 	main {
 		width: 75vw;
-        min-width: 300px;
+		min-width: 320px;
 	}
 	
 	h2 {

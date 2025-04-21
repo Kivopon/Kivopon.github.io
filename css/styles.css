@@ -244,6 +244,15 @@ header[data-head-anim="start"] #intro-text {
 	
 	opacity: 1;
 }
+
+#intro-text a {
+	color: #424242;
+}
+
+#intro-text a:hover {
+	color: #E0115F;
+	text-decoration: underline;
+}
 /* /header */
 
 /* MAIN */
@@ -258,7 +267,7 @@ main {
 	
     border: none;
 	
-	box-shadow: 2px 0px 12px #00000010, -6px 0px 6px #00000010;
+	box-shadow: 2px 0px 2px #616a6b20, -6px 0px 2px #616a6b40;
 	
     position: relative;
     z-index: 2;
@@ -397,7 +406,7 @@ footer a {
 	color: #111;
 }
 
-#contacts {
+address {
 	display: inline-flex;
 	flex-flow: row nowrap;
 	justify-content: space-evenly;
@@ -412,15 +421,16 @@ footer a {
 	background: none;
 	
 	border: none;
+	font: inherit;
 }
 
-#contacts p {
+address p {
 	display: inline;
 	
 	margin: 0 18px 0 0;
 }
 
-#contacts img {
+address img {
 	display: block;
 	
 	width: 18px;
@@ -644,12 +654,12 @@ footer a {
 		font: normal normal 1.4rem / 1.5 Poppins, sans-serif;
     }
 	
-	#contacts {
+	address {
 		flex-flow: row wrap;
 		justify-content: flex-start;
 	}
 	
-	#contacts p {
+	address p {
 		display: inline;
 		margin: 0 14px 14px 0;
 	}

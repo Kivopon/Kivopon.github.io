@@ -40,7 +40,7 @@ a:hover {
 	color: #E0115F;
 }
 
-a:visited {
+a:visited:not(a:visited:hover) {
 	color: inherit;
 }
 

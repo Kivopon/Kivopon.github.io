@@ -246,7 +246,8 @@ header[data-head-anim="start"] #intro-text {
 }
 
 #intro-text a {
-	color: #424242;
+	color: #424949;
+	font-weight: 500;
 }
 
 #intro-text a:hover {
@@ -363,7 +364,8 @@ footer {
 }
 
 footer a {
-	color: #111;
+	color: #424949;
+	font-weight: 500;
 }
 
 #legal-agreement {

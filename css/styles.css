@@ -813,13 +813,15 @@ address img {
 	
 	/* HEADER */
 	header {
-		justify-content: center;
-        padding: 0;
-	}
+		height: 100vh;
+        min-height: 0;
+		
+		padding: 0;
+    }
 	
 	#intro-text {
-        margin: 12vh auto 0px;
-	}
+        margin: 40px auto -20px;
+    }
 	/* /header */
 	
 }
